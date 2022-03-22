@@ -4,6 +4,14 @@
 	<artifactId>claro-brasil-challenge-qa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>claro-brasil-challenge-qa</name>
+	
+	<properties>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+		<project.build.sourceEncoding>Cp1252</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>Cp1252</project.reporting.outputEncoding>
+	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
