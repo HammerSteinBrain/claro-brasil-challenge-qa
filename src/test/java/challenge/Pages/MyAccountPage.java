@@ -20,6 +20,14 @@ public class MyAccountPage extends BasePage{
 		return browser.findElement(By.className("info-account")).getAttribute("innerText");
 	}
 	
+	public WomenProductsPage GoToWomenPage() {
+		
+		//click women page menu link
+		browser.findElement(By.cssSelector("#block_top_menu > ul > li:nth-child(1) > a")).click();
+		
+		return new WomenProductsPage(browser);
+	}
+	
 	
 
 }
