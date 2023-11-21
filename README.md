@@ -10,7 +10,7 @@ Especificações Técnicas
 
 - **Plataforma :** Android, iOS e Web (Google Chrome)
 - **Linguagem:** Java
-- **Idioma de escrita do código:** Inglês
+- **Idioma do projeto:** Inglês
 
 ----------
 
